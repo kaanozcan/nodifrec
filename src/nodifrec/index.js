@@ -1,7 +1,4 @@
-let fixtures = [];
-
+export const fixtures = new Map();
 export const fixture = (f) => {
-  fixtures.push(f);
+    fixtures.set(f.name, f);
 }
-
-export fixtures;
