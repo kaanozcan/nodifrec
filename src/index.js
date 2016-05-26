@@ -1,1 +1,1 @@
-export * from "./nodifrec"
+export * from "./nodifrec";
